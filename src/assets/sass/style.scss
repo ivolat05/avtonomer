@@ -1,6 +1,6 @@
 @import "../sass/vendor/reset";
 @import "../sass/vendor/stylesheet";
-@import "../sass/vendor/fonts";
+@import "../sass/vendor/fonts.scss";
 @import "../sass/vars";
 
 html{
@@ -31,12 +31,13 @@ body{
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/grid";
 @import "../../../node_modules/bootstrap/scss/_containers";
+@import "../../../node_modules/bootstrap/scss/dropdown";
 
 @import "../../assets/sass/blocks/page";
 @import "../../assets/sass/blocks/header";
-
-@import "../../assets/sass/blocks/filter__block.scss";
 @import "../../assets/sass/blocks/number__block";
-@import "../../assets/sass/blocks/filter";
+@import "../../assets/sass/blocks/filter__block";
 
-@import "../../assets/sass/blocks/block__title.scss"
+@import "../../assets/sass/blocks/filter";
+@import "../../assets/sass/blocks/block__title.scss";
+@import "../../assets/sass/blocks/city.scss";

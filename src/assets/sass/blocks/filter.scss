@@ -1,3 +1,93 @@
-.dropdown-menu{
-    display: none;
+
+.filter__col{
+    margin: 0 auto;
+    
+}
+.plate-wrap{
+    box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+    margin: 20px  0 40px;
+}
+
+.filter__row-two{
+    margin-bottom: 48px;
+}
+
+.filtor__city{
+    display: block;
+    width: 216px;
+    height: 44px;
+    padding: 12.5px 15px 13.5px 15.2px;
+    border-radius: 3px;
+    box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+    background-color: $white;
+    position: relative;
+
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.67;
+    text-align: left;
+    color: #373737;
+
+    &::after{
+        content: url('../../assets/img/next.svg');
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.form__checbox-text{
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.67;
+    text-align: left;
+    color: $white;
+
+    position: relative;
+    cursor: pointer; 
+    &::before{
+        content: url('../../assets/img/label.png');
+        position: absolute;
+        top: -5px;
+        left: -40px;
+        width: 24px;
+        height: 24px;
+        box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+    }
+}
+
+.form__checbox{
+    opacity: 0;
+}
+
+.form__checbox:checked   + .form__checbox-text::after{
+    content: url('../../assets/img/label__active.png');
+    position: absolute;
+    left: -34px;
+    top: 0px;
+    box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+}
+
+.filter__input-number{
+ width: 216px;
+  height: 44px;
+  padding: 12.5px 15.8px 13.5px;
+  border-radius: 3px;
+  box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+  background-color: $white;
+
+    font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  text-align: left;
+  color: #373737;
+}
+
+.filter__row-three{
+    justify-content: end;
 }

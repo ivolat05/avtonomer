@@ -1,0 +1,33 @@
+.city__wrapp{
+    max-width: 1140px;
+    margin: 0 0 61px;
+    padding: 0 0 4.5px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+    background-color: $white;
+}
+
+.city__wrapp-title{
+    background-color: $cityBack;  
+    padding: 18.5px 38.8px 19.5px 40.2px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    color:$white;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.city__wrapp-box{
+    align-items: baseline;
+    padding: 39px 44px;
+    justify-content: start;
+}
+
+.city__wrapp-link{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color:#181818;
+}

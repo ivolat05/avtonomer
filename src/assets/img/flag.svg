@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="36" viewBox="0 0 58 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_2_копия_2" data-name="Прямоугольник 2 копия 2" width="58" height="36" transform="translate(1259 495)" stroke="#000" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Прямоугольник_2_копия_2-2" data-name="Прямоугольник 2 копия 2" transform="translate(-1259 -495)">
+    <g id="Прямоугольник_2_копия_2-3" data-name="Прямоугольник 2 копия 2" transform="translate(1259 495)" stroke="#000" stroke-width="1">
+      <rect width="58" height="36" stroke="none"/>
+      <rect x="0.5" y="0.5" width="57" height="35" fill="none"/>
+    </g>
+    <g id="Clip" clip-path="url(#clip-path)">
+      <image id="Слой_1" data-name="Слой 1" width="58" height="39" transform="translate(1259 494)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAnCAYAAABe81ttAAAABHNCSVQICAgIfAhkiAAAAKdJREFUaEPt2kEKgCAQheHnAYIK6f4H6wItGqEOMI3ta++bFwQt/f0URCruvgNY4mV+WonQKwon5spou3voGR8reagplExYomSgkKhEB50BLd1B4T6HbcUsycmo1iShgEKZ9qkViTJ5Io6AEpXokDOgpTsk28+gJconOqPluO48sOUIdUChRBs1rlIkSuTZD/USpQKVKBdn1GiPspG+okn+YQBS/JXyAGWYi/Aek8RUAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>
