@@ -1,5 +1,6 @@
 @import "../sass/vendor/reset";
 @import "../sass/vendor/stylesheet";
+@import "../sass/vendor/fonts";
 @import "../sass/vars";
 
 html{
@@ -33,6 +34,9 @@ body{
 
 @import "../../assets/sass/blocks/page";
 @import "../../assets/sass/blocks/header";
-@import "../../assets/sass/blocks/filter";
+
 @import "../../assets/sass/blocks/filter__block.scss";
 @import "../../assets/sass/blocks/number__block";
+@import "../../assets/sass/blocks/filter";
+
+@import "../../assets/sass/blocks/block__title.scss"
