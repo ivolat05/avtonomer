@@ -1,5 +1,11 @@
 @import "../sass/vendor/reset";
 @import "../sass/vendor/stylesheet";
+@import "../sass/vars";
+
+html{
+    font-size: 18px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -14,6 +20,8 @@ ul {
 
 body{
     font-family: 'Gilroy';
+    font-size: 1rem;
+    background: $gradient;
 }
 
 /*-bootstrap-*/
@@ -22,3 +30,6 @@ body{
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/grid";
 @import "../../../node_modules/bootstrap/scss/_containers";
+
+@import "../../assets/sass/blocks/page";
+@import "../../assets/sass/blocks/header";
