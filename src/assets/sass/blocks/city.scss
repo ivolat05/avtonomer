@@ -1,11 +1,11 @@
 .city__wrapp{
-    max-width: 1140px;
     margin: 0 0 61px;
     padding: 0 0 4.5px;
     border-radius: 5px;
     box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
     background-color: $white;
 }
+
 
 .city__wrapp-title{
     background-color: $cityBack;  
@@ -21,7 +21,7 @@
 .city__wrapp-box{
     align-items: baseline;
     padding: 39px 44px;
-    justify-content: start;
+    justify-content: space-evenly;
 }
 
 .city__wrapp-link{
@@ -31,3 +31,34 @@
     line-height: 31px;
     color:#181818;
 }
+
+
+.white-popup{
+    max-width: 985px;
+    margin: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mfp-close-btn-in{
+    .mfp-close {
+    color: rgba(0,0,0,0);
+    top: 15px;
+    right: 17px;
+    opacity: 1;
+    &::before{
+        content: url("../../assets/img/close.svg");
+        position: absolute;
+        top: -1px;
+        left: 12px;
+        z-index: 234;
+        
+    }
+}
+
+} 
+
+.filter{
+    padding-bottom: 208px;
+}
+
