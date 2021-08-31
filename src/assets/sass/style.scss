@@ -3,6 +3,7 @@
 @import "../sass/vendor/fonts.scss";
 @import "../sass/vars";
 @import "../sass/vendor/magnific-popup";
+@import "../sass/vendor/slick";
 
 html{
     font-size: 18px;
@@ -35,6 +36,7 @@ body{
 @import "../../../node_modules/bootstrap/scss/_containers";
 @import "../../../node_modules/bootstrap/scss/dropdown";
 @import "../../../node_modules/bootstrap/scss/modal";
+@import "../../../node_modules/bootstrap/scss/_pagination";
 
 @import "../../assets/sass/blocks/page";
 @import "../../assets/sass/blocks/header";
@@ -45,4 +47,6 @@ body{
 @import "../../assets/sass/blocks/block__title.scss";
 @import "../../assets/sass/blocks/city.scss";
 @import "../../assets/sass/blocks/table";
+@import "../../assets/sass/blocks/row__pagination";
 @import "../../assets/sass/blocks/nomer";
+@import "../../assets/sass/blocks/slider";
