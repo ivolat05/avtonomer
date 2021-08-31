@@ -1,0 +1,110 @@
+.buy{
+    padding-bottom: 180px;
+}
+
+.buy__title{
+    font-size: 2.67rem;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white;
+    padding-bottom: 40px;
+}
+
+.buy__img{
+    width: 550px;
+    height: 116px;
+    margin-bottom: 45px;
+}
+
+.buy__box-one{
+    padding: 22px 25px;
+    border-radius: 6px;
+    box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+    background-color: $white;
+}
+
+
+.buy__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 58px 45.8px 58px 86px;
+    border-radius: 6px;
+    box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
+    background-color: $white;
+}
+
+.buy__box-img{
+    background: $buyImgBack;
+    padding: 38px 44px;
+    border-radius: 50%;
+}
+
+.buy__line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .78rem;
+    font-weight: 600;
+    line-height: 2.57;
+    color: #373737;
+
+    border-bottom: 1px solid rgba(55,55,55,.2);
+}
+
+.buy__line:nth-last-child(1){
+    border: none;
+}
+
+.buy__conteiner-title{
+    font-size: 1.33rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373737;
+}
+
+.buy__conteiner-link{
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2.57;
+    text-align: left;
+    color: #22c4e1;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+
+.buy__conteiner-text{   
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373737;
+}
+
+.btn-tell{
+    font-size: .78rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.39;
+    text-align: left;
+    color: #4c598d;
+    text-decoration: underline;
+}
+
+.buy__line-title{
+    text-align: left;
+}
+
+.buy__line-text{
+    text-align: right;
+}
