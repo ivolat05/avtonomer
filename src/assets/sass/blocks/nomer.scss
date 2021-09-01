@@ -1,6 +1,6 @@
 .nomer{
     padding: 87px 0 97px;
-    background: url('../img/nomer__back.png') no-repeat center center;
+    background: url('../img/nomer__back.png') no-repeat center center/cover;
 }
 .nomer__title-text{
     font-weight: 300;
@@ -36,5 +36,25 @@
         font-weight: 600;
         line-height: 0.83;
         color: $blue;
+    }
+}
+
+/*--media--*/
+
+@media(max-width: 580px){
+    .nomer{
+        margin-top: 20px;
+        .row-cols-4{
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width: 400px){
+    .nomer{
+        .block__title{
+            font-size: 2rem;
+            
+        }
     }
 }
