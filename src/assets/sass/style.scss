@@ -24,8 +24,7 @@ ul {
 body{
     font-family: 'Gilroy';
     font-size: 1rem;
-    background: $gradient;
-    
+    background: $gradient;    
 }
 
 /*-bootstrap-*/
@@ -37,6 +36,10 @@ body{
 @import "../../../node_modules/bootstrap/scss/dropdown";
 @import "../../../node_modules/bootstrap/scss/modal";
 @import "../../../node_modules/bootstrap/scss/_pagination";
+@import "../../../node_modules/bootstrap/scss/nav";
+@import "../../../node_modules/bootstrap/scss/navbar";
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import '../../../node_modules/bootstrap/scss/button-group';
 
 @import "../../assets/sass/blocks/page";
 @import "../../assets/sass/blocks/header";
@@ -52,3 +55,4 @@ body{
 @import "../../assets/sass/blocks/slider";
 @import "../../assets/sass/blocks/footer";
 @import "../../assets/sass/blocks/buy.scss";
+@import "../../assets/sass/blocks/loginForm";
