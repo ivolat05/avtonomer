@@ -72,22 +72,142 @@
 }
 
 .filter__input-number{
- width: 216px;
-  height: 44px;
-  padding: 12.5px 15.8px 13.5px;
-  border-radius: 3px;
-  box-shadow: $shadow;
-  background-color: $white;
+    width: 216px;
+    height: 44px;
+    padding: 12.5px 15.8px 13.5px;
+    border-radius: 3px;
+    box-shadow: $shadow;
+    background-color: $white;
 
     font-size: .83rem;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.67;
-  text-align: left;
-  color: #373737;
-}
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    text-align: left;
+    color: #373737;
+    }
 
 .filter__row-three{
     justify-content: end;
 }
+
+/*-------media------*/
+@media(max-width: 1200px){
+    .form__checbox-text {
+        font-size: .76rem;
+        }
+
+    .block__title-text {
+        font-weight: 600;
+        font-size: .93rem;
+        }
+    .filter{
+        .block__title-text {
+        font-weight: 600;
+        font-size: .93rem;
+        }
+    }  
+}
+
+@media(max-width: 991px){
+    .filter__box{
+        flex-wrap: wrap;
+        width: 53%;
+        
+
+        .col-3{
+            width: 50%;
+            margin-bottom: 30px;
+            }
+    }
+
+    .filter__row-two{
+        align-items: unset;
+        }
+    
+    .filter__row-three{
+        .col-3{
+            width: 33%;
+        }
+    }
+
+    .filter__col{
+        width: 100%;
+    }
+}
+
+@media(max-width: 880px){
+    .city__wrapp-box{     
+        .col-3{
+        width: 300px;
+        margin-bottom: 20px;
+        }
+    }
+    .mfp-inline-holder .mfp-content {
+    width: 300px;}
+}
+
+@media(max-width: 770px){
+    .filter__row-two{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+            .col-3{
+                width: 67%;
+                margin-bottom: 30px;
+            }
+             .filter__box {
+                flex-wrap:nowrap;
+                flex-direction: column;
+                width: 53%;
+                }
+
+            .filtor__city{
+                margin: 0 auto;
+                }
+        }
+
+    
+    .filter__row-three{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+            .col-3{
+                width: 50%;
+                margin-bottom: 20px;
+            }
+        }
+        .select-wrapper{
+            .row{
+                .filter__number{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }       
+    }
+}
+
+@media(max-width:580px){
+    .filter__row-two .filter__box {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 92%;
+        }
+    .filter__row-three .col-3 {
+        width: 74%;
+        }
+
+    .select-wrapper .row .filter__number {
+        width: 92%;
+        margin: 0 auto;
+            .plate-wrap{
+                margin: 20px auto 40px;
+                }
+        }
+        .filter__row-three {
+            margin: 0 auto;
+            width: 300px;
+        }
+}
+
