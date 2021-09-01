@@ -23,10 +23,12 @@
     border-radius: 6px;
     box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.25);
     background-color: $white;
+    height: 283px;
 }
 
 
 .buy__box{
+    height: 283px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,4 +109,9 @@
 
 .buy__line-text{
     text-align: right;
+}
+
+.buy__line-text-color{
+    color: $blue;
+    font-weight: 700;
 }
