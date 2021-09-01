@@ -55,3 +55,30 @@
             }  
     }
 } 
+
+/*----------media------*/
+@media(max-width: 580px){
+    .row__pagination {
+        top: 19px;
+
+        .pagination {
+            .page-item {
+                width: 17px;
+                height: 17px;
+                margin: 0 7px;
+                border-radius: 50%;
+                    .page-link {    
+                        font-size: .7rem;
+                        }
+                }
+        
+            .page-item:nth-child(1) {
+                margin-right: 18px;
+                }
+
+            .page-item:nth-last-child(1){                
+                margin-left: 18px;                               
+                } 
+            }    
+    }
+}

@@ -76,3 +76,40 @@ $tableLine: #7788bd;
         margin: 0 auto;
     }
 }
+
+/*---------media----------*/
+@media(max-width: 991px){
+    .table__head-line .table__colum {
+        font-size: .7rem;
+    }
+
+    .table__line .table__colum {
+        vertical-align: middle;
+        font-size: .7rem;
+        font-weight: 400;
+        }
+}
+
+@media(max-width: 580px){
+    .table{
+        margin-bottom: 40px;
+        .container{
+            padding: 0;
+        }
+    }
+    .table__conteiner{       
+        overflow-x: scroll;        
+    }
+    .table__wrapp{
+        width: 600px;
+        height: 100%;
+        
+    }
+
+    .table__wrapp{
+        top: 0;
+    }
+    .filter {
+            padding-bottom: 60px;
+            }
+}

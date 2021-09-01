@@ -189,6 +189,7 @@
 }
 
 @media(max-width:580px){
+    /* padding-bottom для filter в table*/
     .filter__row-two .filter__box {
         flex-wrap: nowrap;
         flex-direction: column;
@@ -209,5 +210,6 @@
             margin: 0 auto;
             width: 300px;
         }
+       
 }
 
