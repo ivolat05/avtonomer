@@ -152,66 +152,46 @@
 
 @media(max-width: 770px){
     .filter__row-two{
+        width: 100%;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-            .col-3{
-                width: 67%;
-                margin-bottom: 30px;
-            }
-             .filter__box {
-                flex-wrap:nowrap;
-                flex-direction: column;
-                width: 53%;
-                }
-
-            .filtor__city{
-                margin: 0 auto;
-                }
+        .col-3{
+            width: 100%;
+            margin-bottom: 30px;
+            margin-left: -5px;
         }
+        
+        .filter__box{
+            flex-direction: column;
 
-    
-    .filter__row-three{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
             .col-3{
-                width: 50%;
-                margin-bottom: 20px;
+                width: 100%;
             }
         }
-        .select-wrapper{
-            .row{
-                .filter__number{
-                    width: 80%;
-                    margin: 0 auto;
-                }
-            }       
     }
+
+    .filter__box{
+        width: 100%;
+        margin-left: 0;
+        }
+
+    .filter__row-three{
+        width: 100%;
+        flex-direction: column;
+        .col-3{
+            width: 100%;
+            margin-bottom: 20px;
+            margin-left: -5px;
+        }
+    }
+    .plate-wrap {
+        margin-left: 12px;
+        }
 }
 
-@media(max-width:580px){
-    /* padding-bottom для filter в table*/
-    .filter__row-two .filter__box {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        width: 92%;
-        }
-    .filter__row-three .col-3 {
-        width: 74%;
-        }
+@media(max-width: 500px){
 
-    .select-wrapper .row .filter__number {
-        width: 92%;
-        margin: 0 auto;
-            .plate-wrap{
-                margin: 20px auto 40px;
-                }
+    .plate-wrap {
+        width: 307px;
         }
-        .filter__row-three {
-            margin: 0 auto;
-            width: 300px;
-        }
-       
 }
 
