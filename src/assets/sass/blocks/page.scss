@@ -1,6 +1,10 @@
 .page{
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-x: hidden;
     justify-content: space-between;
+}
+
+.page__height{
+    height: 100vh;
 }
