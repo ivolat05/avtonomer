@@ -6,23 +6,27 @@
 }
 
 .login__wrapp{
-    
+        background:$white;
+        border-radius: $radius;
+        box-shadow: $shadow;
     .nav{
         justify-content: space-between;
+        border: none;
+        padding-top: 20px;
     }
     .nav-item{
         .nav-link{
             font-weight: 400;
             font-size: 1.1rem;
             line-height: 1.1;
-            color:$white;
+            color:$loginBtnColor;
             padding: 0;
             margin-bottom: 15px;
             &:hover{
-            border: none;
-            font-weight: 700;
-            border-bottom:1px dashed $white;
-        }
+                border: none;
+                font-weight: 700;
+                border-bottom:1px dashed $loginBtnColor;
+                }
         }
         
 
@@ -30,7 +34,7 @@
             font-weight: 700;
             background:rgba(0,0,0,0);
             border: none;
-            border-bottom:1px dashed $white;
+            border-bottom:1px dashed $loginBtnColor;
             padding: 0;
         }
     }
@@ -38,10 +42,7 @@
     
 
 .tab-content{
-        padding: 30px 25px;
-        background:$white;
-        border-radius: $radius;
-        box-shadow: $shadow;
+        padding:0  25px 30px;     
 
         .row{
                 margin: 0 auto 10px; 
@@ -78,4 +79,21 @@
      line-height: 1.19;
     background: $loginBtnColor;
     padding: 15px;
+}
+
+/*------------media--------*/
+@media(max-width: 992px){
+    .login__wrapp{
+        .col-4{
+            width: 200px;
+        }
+    }
+}
+
+@media(max-width: 580px){
+    .login{
+        .col-8{
+            width: 95%;
+        }
+    }
 }

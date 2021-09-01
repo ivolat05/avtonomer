@@ -7,6 +7,7 @@
 
 html{
     font-size: 18px;
+    height: 100%;
 }
 
 * {
@@ -22,9 +23,12 @@ ul {
 }
 
 body{
+    height: 100%;
     font-family: 'Gilroy';
     font-size: 1rem;
-    background: $gradient;    
+    background: $gradient; 
+    background-size: 100% 200%;
+
 }
 
 /*-bootstrap-*/

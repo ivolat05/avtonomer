@@ -22,7 +22,33 @@
         left: -20px;
     }
 }
+/*-----------media---------------*/
+@media(max-width: 1200px){
+    .header{
+        .col-2{            
+        width: 17.66667%;
+        } 
+    }     
+}
 
+@media(max-width: 992px){
+    .header__link{
+        width: 140px;
+        font-size: 0.9rem;
+    }
+}
 
+@media(max-width: 680px){
+    .header__link{
+        width: 40px;
+        height: 40px;
+        font-size: 1px;
+        color: rgba(0,0,0,0);
+
+        &::before{
+            left: 0;
+        }
+    }   
+}
 
 
