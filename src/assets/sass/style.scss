@@ -1,11 +1,11 @@
 @import "../sass/vendor/reset";
 @import "../sass/vendor/stylesheet";
 @import "../sass/vendor/fonts.scss";
-@import "../sass/vars";
+@import "../sass/vendor/vars";
 @import "../sass/vendor/magnific-popup";
 @import "../sass/vendor/slick";
 
-html{
+html {
     font-size: 18px;
     height: 100%;
 }
@@ -22,13 +22,12 @@ ul {
     list-style: none;
 }
 
-body{
+body {
     height: 100%;
-    font-family: 'Gilroy';
+    font-family: "Gilroy";
     font-size: 1rem;
-    background: $gradient; 
+    background: $gradient;
     background-size: 100% 250%;
-
 }
 
 /*-bootstrap-*/
@@ -43,7 +42,7 @@ body{
 @import "../../../node_modules/bootstrap/scss/nav";
 @import "../../../node_modules/bootstrap/scss/navbar";
 @import "../../../node_modules/bootstrap/scss/buttons";
-@import '../../../node_modules/bootstrap/scss/button-group';
+@import "../../../node_modules/bootstrap/scss/button-group";
 
 @import "../../assets/sass/blocks/page";
 @import "../../assets/sass/blocks/header";
@@ -54,7 +53,6 @@ body{
 @import "../../assets/sass/blocks/block__title.scss";
 @import "../../assets/sass/blocks/city.scss";
 @import "../../assets/sass/blocks/table";
-
 
 @import "../../assets/sass/blocks/row__pagination";
 @import "../../assets/sass/blocks/nomer";
